@@ -75,7 +75,7 @@
 <table>
   <tr>
     <th>No</th>
-    <th>Nama</th>
+    <!-- <th>Nama</th> -->
     <th>ID Unik</th>
     <th>Waktu</th>
   </tr>
@@ -85,7 +85,6 @@
     while ($row = $res->fetch_assoc()) {
       echo "<tr>
               <td>{$i}</td>
-              <td>{$row['name']}</td>
               <td>{$row['unique_id']}</td>
               <td>{$row['created_at']}</td>
             </tr>";
@@ -94,6 +93,6 @@
   ?>
 </table>
 
-<script src="../script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
