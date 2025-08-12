@@ -1,13 +1,13 @@
 <?php
-require 'db.php';
+require '../db.php';
 
-$res = $conn->query("SELECT name, unique_id FROM peserta WHERE status = 'belum_menang'");
+$res = $conn->query("SELECT name, id_karyawan FROM peserta_cabang WHERE status = 'belum_menang'");
 $peserta = [];
 
 while ($row = $res->fetch_assoc()) {
   $peserta[] = [
     'name' => $row['name'],
-    'unique_id' => $row['unique_id']
+    'id_karyawan' => $row['id_karyawan']
   ];
 }
 
