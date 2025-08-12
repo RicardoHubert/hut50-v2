@@ -1,0 +1,11 @@
+HOW TO
+- INSTALL XAMPP
+- PHP VER 7,4,24
+- CLONE GIT
+- AMBIL DB, IMPORT DARI FILE YANG GUE KASIH
+- COBAIN PROJECT NYA
+
+
+/ READ
+- Tabel peserta_pusat udah gue bantu inject
+- lu siapin query buat nanti inject data yang dari google docs buat yang cabang
